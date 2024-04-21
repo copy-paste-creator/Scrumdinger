@@ -6,7 +6,7 @@ struct DetailEditView: View {
     
     var body: some View {
         Form {
-            Section(header: Text("Meeting Info")){
+            Section(header: Text("Meeting Info")) {
                 TextField("Title", text: $scrum.title)
                 HStack{
                     Slider(value: $scrum.lengthInMinutesAsDouble, in: 5...30, step: 1){
@@ -20,7 +20,7 @@ struct DetailEditView: View {
                 ThemePicker(selection: $scrum.theme)
             }
             Section(header: Text("Attendees")){
-                ForEach(scrum.attendees){attendee in
+                ForEach(scrum.attendees){ attendee in
                     Text(attendee.name)
                 }
                 .onDelete{ indices in
@@ -32,7 +32,7 @@ struct DetailEditView: View {
                         withAnimation{
                             let attendee = DailyScrum.Attendee(name: newAttendeeName)
                             scrum.attendees.append(attendee)
-                            newAttendeeName = "" 
+                            newAttendeeName = ""
                         }
                     }) {
                         Image(systemName: "plus.circle.fill")
