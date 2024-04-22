@@ -22,6 +22,8 @@
 		3D2B5BDB2BD43ECE00BFAAA4 /* ScrumStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B5BDA2BD43ECE00BFAAA4 /* ScrumStore.swift */; };
 		3D2B5BDD2BD4EE3400BFAAA4 /* ErrorWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B5BDC2BD4EE3400BFAAA4 /* ErrorWrapper.swift */; };
 		3D2B5BDF2BD4EEC300BFAAA4 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B5BDE2BD4EEC300BFAAA4 /* ErrorView.swift */; };
+		3D2B5BE12BD5146D00BFAAA4 /* MeetingTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B5BE02BD5146D00BFAAA4 /* MeetingTimerView.swift */; };
+		3D2B5BE32BD51B8A00BFAAA4 /* SpeakerArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D2B5BE22BD51B8A00BFAAA4 /* SpeakerArc.swift */; };
 		3D4D9B4E2BCE42FE000CC62F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D9B4D2BCE42FE000CC62F /* Theme.swift */; };
 		3D4D9B502BCEB856000CC62F /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D9B4F2BCEB856000CC62F /* DailyScrum.swift */; };
 		3D4D9B542BCEBDC4000CC62F /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D4D9B532BCEBDC4000CC62F /* CardView.swift */; };
@@ -32,6 +34,8 @@
 		3DBF9CD82BCADEC200D581B4 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DBF9CD72BCADEC200D581B4 /* MeetingView.swift */; };
 		3DBF9CDA2BCADEC500D581B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF9CD92BCADEC500D581B4 /* Assets.xcassets */; };
 		3DBF9CDD2BCADEC500D581B4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DBF9CDC2BCADEC500D581B4 /* Preview Assets.xcassets */; };
+		3DEC91652BD5767100649F17 /* SpeechRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC91642BD5767100649F17 /* SpeechRecognizer.swift */; };
+		3DEC91672BD57BE200649F17 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DEC91662BD57BE200649F17 /* HistoryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,8 @@
 		3D2B5BDA2BD43ECE00BFAAA4 /* ScrumStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumStore.swift; sourceTree = "<group>"; };
 		3D2B5BDC2BD4EE3400BFAAA4 /* ErrorWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorWrapper.swift; sourceTree = "<group>"; };
 		3D2B5BDE2BD4EEC300BFAAA4 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+		3D2B5BE02BD5146D00BFAAA4 /* MeetingTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingTimerView.swift; sourceTree = "<group>"; };
+		3D2B5BE22BD51B8A00BFAAA4 /* SpeakerArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeakerArc.swift; sourceTree = "<group>"; };
 		3D4D9B4D2BCE42FE000CC62F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		3D4D9B4F2BCEB856000CC62F /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		3D4D9B532BCEBDC4000CC62F /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,8 @@
 		3DBF9CD72BCADEC200D581B4 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
 		3DBF9CD92BCADEC500D581B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DBF9CDC2BCADEC500D581B4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3DEC91642BD5767100649F17 /* SpeechRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechRecognizer.swift; sourceTree = "<group>"; };
+		3DEC91662BD57BE200649F17 /* HistoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,17 +88,20 @@
 				3D4D9B532BCEBDC4000CC62F /* CardView.swift */,
 				3D2976022BD00B56007626FF /* DetailEditView.swift */,
 				3D4D9B592BCEE8C2000CC62F /* DetailView.swift */,
-				3D29761B2BD3891C007626FF /* NewScrumSheet.swift */,
+				3D2B5BD62BD3FF8100BFAAA4 /* EditScrumSheet.swift */,
+				3D2B5BDE2BD4EEC300BFAAA4 /* ErrorView.swift */,
 				3D2976142BD2B87B007626FF /* MeetingFooterView.swift */,
 				3D29760E2BD2221D007626FF /* MeetingHeaderView.swift */,
+				3D2B5BE02BD5146D00BFAAA4 /* MeetingTimerView.swift */,
 				3DBF9CD72BCADEC200D581B4 /* MeetingView.swift */,
-				3D2B5BD62BD3FF8100BFAAA4 /* EditScrumSheet.swift */,
+				3D29761B2BD3891C007626FF /* NewScrumSheet.swift */,
 				3D2976102BD22CFE007626FF /* ScrumProgressViewStyle.swift */,
 				3D4D9B572BCED43D000CC62F /* ScrumsView.swift */,
 				3D2976092BD0D79F007626FF /* ThemePicker.swift */,
 				3D2976072BD0C9A0007626FF /* ThemeView.swift */,
 				3D4D9B552BCEC704000CC62F /* TrailingIconLabelStyle.swift */,
-				3D2B5BDE2BD4EEC300BFAAA4 /* ErrorView.swift */,
+				3D2B5BE22BD51B8A00BFAAA4 /* SpeakerArc.swift */,
+				3DEC91662BD57BE200649F17 /* HistoryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,11 +119,12 @@
 			children = (
 				3D2976162BD2CF72007626FF /* AVPlayer+Ding.swift */,
 				3D4D9B4F2BCEB856000CC62F /* DailyScrum.swift */,
-				3D2976122BD2337E007626FF /* ScrumTimer.swift */,
-				3D4D9B4D2BCE42FE000CC62F /* Theme.swift */,
+				3D2B5BDC2BD4EE3400BFAAA4 /* ErrorWrapper.swift */,
 				3D2B5BD82BD411CC00BFAAA4 /* History.swift */,
 				3D2B5BDA2BD43ECE00BFAAA4 /* ScrumStore.swift */,
-				3D2B5BDC2BD4EE3400BFAAA4 /* ErrorWrapper.swift */,
+				3D2976122BD2337E007626FF /* ScrumTimer.swift */,
+				3DEC91642BD5767100649F17 /* SpeechRecognizer.swift */,
+				3D4D9B4D2BCE42FE000CC62F /* Theme.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -235,10 +247,14 @@
 				3D4D9B5A2BCEE8C2000CC62F /* DetailView.swift in Sources */,
 				3D29760F2BD2221D007626FF /* MeetingHeaderView.swift in Sources */,
 				3D2976032BD00B57007626FF /* DetailEditView.swift in Sources */,
+				3DEC91652BD5767100649F17 /* SpeechRecognizer.swift in Sources */,
 				3D2B5BD72BD3FF8100BFAAA4 /* EditScrumSheet.swift in Sources */,
 				3D29761C2BD3891C007626FF /* NewScrumSheet.swift in Sources */,
+				3D2B5BE32BD51B8A00BFAAA4 /* SpeakerArc.swift in Sources */,
 				3D4D9B562BCEC704000CC62F /* TrailingIconLabelStyle.swift in Sources */,
 				3D4D9B4E2BCE42FE000CC62F /* Theme.swift in Sources */,
+				3D2B5BE12BD5146D00BFAAA4 /* MeetingTimerView.swift in Sources */,
+				3DEC91672BD57BE200649F17 /* HistoryView.swift in Sources */,
 				3D4D9B582BCED43D000CC62F /* ScrumsView.swift in Sources */,
 				3D2B5BDD2BD4EE3400BFAAA4 /* ErrorWrapper.swift in Sources */,
 				3DBF9CD82BCADEC200D581B4 /* MeetingView.swift in Sources */,
@@ -384,6 +400,8 @@
 				DEVELOPMENT_TEAM = CU4U4WXNXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -414,6 +432,8 @@
 				DEVELOPMENT_TEAM = CU4U4WXNXF;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Audio is recorded to transcribe the meeting. Audio recordings are discarded after transcription.";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "You can view a text transcription of your meeting in the app";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
